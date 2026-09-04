@@ -253,7 +253,7 @@ button:focus-visible,
     transform: translateY(-2px);
 }
 
-/* Os produtos aparecem em três colunas quando há espaço disponível. */
+/* Os produtos se organizam automaticamente de acordo com o espaço disponível. */
 #produtos {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
