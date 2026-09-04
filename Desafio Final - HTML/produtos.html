@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lucas Carvalho de Góes">
+    <meta name="description" content="Catálogo de produtos para estudantes">
+    <title>Produtos para Estudantes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cabeçalho e menu da página de produtos. -->
+    <header>
+        <h1>Produtos para Estudantes</h1>
+        <p>Itens úteis para organizar a rotina de estudos.</p>
+        <nav aria-label="Navegação principal">
+            <ul>
+                <li><a href="index.html">Página da disciplina</a></li>
+                <li><a href="#produtos">Ver produtos</a></li>
+                <li><a href="#cadastro">Cadastrar produto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Conteúdo principal do catálogo. -->
+    <main>
+        <section id="produtos">
+            <h2>Produtos disponíveis</h2>
+            <p class="aviso-precos">Os valores são ilustrativos. Consulte as páginas oficiais para verificar preço e disponibilidade.</p>
+
+            <!-- Produtos disponíveis no catálogo. -->
+            <article>
+                <img src="imagens/caderno.jpg" alt="Caderno universitário Tilibra D+ com capa temática de surfe" width="220">
+                <h2>Caderno Universitário Tilibra D+</h2>
+                <p>Caderno de capa dura, 10 matérias e 200 folhas pautadas.</p>
+                <p class="preco"><strong>Preço ilustrativo: R$ 24,90</strong></p>
+                <a class="botao-link" href="https://www.tilibra.com.br/cadernos/espiral-universitario/d/caderno-espiral-capa-dura-universitario-10-materias-d-200-folhas" target="_blank" rel="noopener noreferrer">Ver na Tilibra</a>
+            </article>
+
+            <article>
+                <img src="imagens/mochila.avif" alt="Mochila Lenovo B210 para notebook" width="220">
+                <h2>Mochila Lenovo B210</h2>
+                <p>Mochila resistente com compartimento para notebooks de até 15,6 polegadas.</p>
+                <p class="preco"><strong>Preço ilustrativo: R$ 89,99</strong></p>
+                <a class="botao-link" href="https://www.lenovo.com/br/pt/p/accessories-and-software/cases-and-bags/backpacks/gx40q17225" target="_blank" rel="noopener noreferrer">Ver na Lenovo</a>
+            </article>
+
+            <article>
+                <img src="imagens/JBL.webp" alt="Headset JBL Quantum 100N azul com microfone" width="220">
+                <h2>Headset JBL Quantum 100N</h2>
+                <p>Headset com fio, almofadas confortáveis e microfone removível.</p>
+                <p class="preco"><strong>Preço ilustrativo: R$ 229,00</strong></p>
+                <a class="botao-link" href="https://www.jbl.com.br/QUANTUM100N.html" target="_blank" rel="noopener noreferrer">Ver na JBL</a>
+            </article>
+
+            <article>
+                <img src="imagens/lapiseira.webp" alt="Lapiseira Pentel GraphGear 500 azul-marinho de 0,7 milímetro" width="220">
+                <h2>Lapiseira Pentel GraphGear 500</h2>
+                <p>Lapiseira técnica de 0,7 milímetro com grip metálico antideslizante.</p>
+                <p class="preco"><strong>Preço ilustrativo: R$ 42,60</strong></p>
+                <a class="botao-link" href="https://www.pentel.com.br/lapiseira-graphgear-500" target="_blank" rel="noopener noreferrer">Ver na Pentel</a>
+            </article>
+        </section>
+
+        <section id="cadastro">
+            <h2>Cadastrar produto</h2>
+            <p>Preencha todos os campos para cadastrar um novo item no catálogo.</p>
+
+            <!-- Formulário para cadastrar um novo produto. -->
+            <form action="produto-cadastrado.html" method="get">
+                <p>
+                    <label for="nome-produto">Nome do produto:</label><br>
+                    <input type="text" id="nome-produto" name="nome-produto" required>
+                </p>
+
+                <p>
+                    <label for="descricao-produto">Descrição:</label><br>
+                    <textarea id="descricao-produto" name="descricao-produto" rows="4" cols="40" required></textarea>
+                </p>
+
+                <p>
+                    <label for="preco-produto">Preço:</label><br>
+                    <input type="number" id="preco-produto" name="preco-produto" min="0" step="0.01" placeholder="0,00" required>
+                </p>
+
+                <p>
+                    <label for="imagem-produto">Imagem do produto:</label><br>
+                    <input type="file" id="imagem-produto" name="imagem-produto" accept="image/*" required>
+                </p>
+
+                <p>
+                    <label for="link-produto">Link para detalhes:</label><br>
+                    <input type="url" id="link-produto" name="link-produto" placeholder="https://exemplo.com/produto" required>
+                </p>
+
+                <button type="submit">Cadastrar novo produto</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Catálogo criado por Lucas Carvalho de Góes — Matrícula 93740</p>
+        <p><a href="index.html">Voltar para a página da disciplina</a></p>
+    </footer>
+</body>
+</html>
