@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lucas Carvalho de Góes">
+    <meta name="description" content="Catálogo responsivo de produtos para estudantes">
+    <title>Catálogo do Estudante</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Apresentação e menu principal da página. -->
+    <header id="inicio">
+        <div class="conteudo-cabecalho">
+            <p class="identificacao">INF 321 - Desenvolvimento para a Web</p>
+            <h1>Catálogo do Estudante</h1>
+            <p>Produtos úteis para deixar a rotina de estudos mais organizada.</p>
+
+            <nav aria-label="Navegação principal">
+                <ul>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#comparacao">Comparar</a></li>
+                    <li><a href="#cadastro">Cadastrar</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="produtos">
+            <h2>Produtos disponíveis</h2>
+            <p class="texto-apoio">Conheça alguns itens que podem ajudar nas aulas e nos momentos de estudo.</p>
+
+            <!-- Os cards ficam lado a lado no computador e empilhados no celular. -->
+            <div class="grade-produtos">
+                <article class="card-produto">
+                    <img src="imagens/caderno.jpg" alt="Caderno universitário Tilibra D+ com capa temática de surfe">
+                    <div class="conteudo-card">
+                        <h3>Caderno Tilibra D+</h3>
+                        <p>Caderno de capa dura, 10 matérias e 200 folhas pautadas.</p>
+                        <p class="preco">R$ 24,90</p>
+                        <a class="botao" href="https://www.tilibra.com.br/cadernos/espiral-universitario/d/caderno-espiral-capa-dura-universitario-10-materias-d-200-folhas" target="_blank" rel="noopener noreferrer">Ver produto</a>
+                    </div>
+                </article>
+
+                <article class="card-produto">
+                    <img src="imagens/mochila.avif" alt="Mochila Lenovo B210 para notebook">
+                    <div class="conteudo-card">
+                        <h3>Mochila Lenovo B210</h3>
+                        <p>Mochila resistente com espaço para notebooks de até 15,6 polegadas.</p>
+                        <p class="preco">R$ 89,99</p>
+                        <a class="botao" href="https://www.lenovo.com/br/pt/p/accessories-and-software/cases-and-bags/backpacks/gx40q17225" target="_blank" rel="noopener noreferrer">Ver produto</a>
+                    </div>
+                </article>
+
+                <article class="card-produto">
+                    <img src="imagens/JBL.webp" alt="Headset JBL Quantum 100N azul com microfone">
+                    <div class="conteudo-card">
+                        <h3>Headset JBL Quantum 100N</h3>
+                        <p>Headset com fio, almofadas confortáveis e microfone removível.</p>
+                        <p class="preco">R$ 229,00</p>
+                        <a class="botao" href="https://www.jbl.com.br/QUANTUM100N.html" target="_blank" rel="noopener noreferrer">Ver produto</a>
+                    </div>
+                </article>
+
+                <article class="card-produto">
+                    <img src="imagens/lapiseira.webp" alt="Lapiseira Pentel GraphGear 500 azul-marinho de 0,7 milímetro">
+                    <div class="conteudo-card">
+                        <h3>Lapiseira GraphGear 500</h3>
+                        <p>Lapiseira técnica de 0,7 milímetro com apoio metálico antideslizante.</p>
+                        <p class="preco">R$ 42,60</p>
+                        <a class="botao" href="https://www.pentel.com.br/lapiseira-graphgear-500" target="_blank" rel="noopener noreferrer">Ver produto</a>
+                    </div>
+                </article>
+
+                
+                <article class="card-produto">
+                    <img src="imagens/mouse.webp" alt="Mouse sem fio Logitech M170 branco">
+                    <div class="conteudo-card">
+                        <h3>Mouse Logitech M170</h3>
+                        <p>Mouse compacto com conexão sem fio e formato confortável para as duas mãos.</p>
+                        <p class="preco">R$ 69,90</p>
+                        <a class="botao" href="https://www.logitech.com/pt-br/shop/p/m171-wireless-mouse" target="_blank" rel="noopener noreferrer">Ver produto</a>
+                    </div>
+                </article>
+
+                <article class="card-produto">
+                    <img src="imagens/calculadora.avif" alt="Calculadora científica Casio FX-82MS">
+                    <div class="conteudo-card">
+                        <h3>Calculadora Casio FX-82MS</h3>
+                        <p>Calculadora científica com visor de duas linhas e 240 funções.</p>
+                        <p class="preco">R$ 89,90</p>
+                        <a class="botao" href="https://www.casio.com/br/scientific-calculators/product.FX-82MS-2-PK/" target="_blank" rel="noopener noreferrer">Ver produto</a>
+                    </div>
+                </article>
+
+                <article class="card-produto">
+                    <img src="imagens/pendrive.webp" alt="Pendrive SanDisk Ultra Flair com acabamento metálico">
+                    <div class="conteudo-card">
+                        <h3>Pendrive SanDisk Ultra Flair</h3>
+                        <p>Pendrive USB 3.0 de 64 GB com estrutura metálica e leitura rápida.</p>
+                        <p class="preco">R$ 49,90</p>
+                        <a class="botao" href="https://shop.sandisk.com/pt-br/products/usb-flash-drives/sandisk-ultra-flair-usb-3-0?sku=SDCZ73-064G-G46" target="_blank" rel="noopener noreferrer">Ver produto</a>
+                    </div>
+                </article>
+
+                <article class="card-produto">
+                    <img src="imagens/stanley.webp" alt="Garrafa térmica Stanley Aerolight Transit na cor creme">
+                    <div class="conteudo-card">
+                        <h3>Garrafa Stanley Aerolight</h3>
+                        <p>Garrafa térmica leve de 591 ml, prática para levar na mochila.</p>
+                        <p class="preco">R$ 259,00</p>
+                        <a class="botao" href="https://www.stanley1913.com.br/products/garrafa-termica-aerolight-stanley-cream-591ml" target="_blank" rel="noopener noreferrer">Ver produto</a>
+                    </div>
+                </article>
+            </div>
+
+            <p class="observacao">Os preços são ilustrativos e podem mudar nos sites das fabricantes.</p>
+        </section>
+
+        <section id="comparacao">
+            <h2>Comparação rápida</h2>
+            <p class="texto-apoio">A tabela reúne as principais informações de cada produto.</p>
+
+            <!-- Esta área permite movimentar a tabela em telas mais estreitas. -->
+            <div class="tabela-responsiva">
+                <table>
+                    <caption>Resumo dos produtos do catálogo</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Produto</th>
+                            <th scope="col">Categoria</th>
+                            <th scope="col">Preço</th>
+                            <th scope="col">Destaque</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Caderno Tilibra D+</td>
+                            <td>Papelaria</td>
+                            <td>R$ 24,90</td>
+                            <td>200 folhas</td>
+                        </tr>
+                        <tr>
+                            <td>Mochila Lenovo B210</td>
+                            <td>Acessório</td>
+                            <td>R$ 89,99</td>
+                            <td>Espaço para notebook</td>
+                        </tr>
+                        <tr>
+                            <td>Headset JBL Quantum 100N</td>
+                            <td>Áudio</td>
+                            <td>R$ 229,00</td>
+                            <td>Microfone removível</td>
+                        </tr>
+                        <tr>
+                            <td>Lapiseira GraphGear 500</td>
+                            <td>Papelaria</td>
+                            <td>R$ 42,60</td>
+                            <td>Apoio metálico</td>
+                        </tr>
+                        <tr>
+                            <td>Mouse Logitech M170</td>
+                            <td>Informática</td>
+                            <td>R$ 69,90</td>
+                            <td>Conexão sem fio</td>
+                        </tr>
+                        <tr>
+                            <td>Calculadora Casio FX-82MS</td>
+                            <td>Eletrônico</td>
+                            <td>R$ 89,90</td>
+                            <td>240 funções</td>
+                        </tr>
+                        <tr>
+                            <td>Pendrive SanDisk Ultra Flair</td>
+                            <td>Armazenamento</td>
+                            <td>R$ 49,90</td>
+                            <td>Capacidade de 64 GB</td>
+                        </tr>
+                        <tr>
+                            <td>Garrafa Stanley Aerolight</td>
+                            <td>Hidratação</td>
+                            <td>R$ 259,00</td>
+                            <td>Capacidade de 591 ml</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="cadastro">
+            <h2>Cadastrar novo produto</h2>
+            <p class="texto-apoio">Preencha os campos abaixo para simular o cadastro de um item.</p>
+
+            <!-- rótulos deixam claro qual informação deve ser digitada em cada campo. -->
+            <form action="produto-cadastrado.html" method="get">
+                <div class="campo-formulario">
+                    <label for="nome-produto">Nome do produto</label>
+                    <input type="text" id="nome-produto" name="nome-produto" required>
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="descricao-produto">Descrição</label>
+                    <textarea id="descricao-produto" name="descricao-produto" rows="4" required></textarea>
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="preco-produto">Preço</label>
+                    <input type="number" id="preco-produto" name="preco-produto" min="0" step="0.01" placeholder="0,00" required>
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="imagem-produto">Imagem do produto</label>
+                    <input type="file" id="imagem-produto" name="imagem-produto" accept="image/*" required>
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="link-produto">Link para detalhes</label>
+                    <input type="url" id="link-produto" name="link-produto" placeholder="https://exemplo.com/produto" required>
+                </div>
+
+                <button type="submit">Cadastrar produto</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Lucas Carvalho de Góes - Matrícula 93740</p>
+        <a href="#inicio">Voltar ao início</a>
+    </footer>
+</body>
+</html>
