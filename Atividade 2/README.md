@@ -12,4 +12,4 @@ Esta atividade utiliza a página de produtos da prática anterior como base e ap
 - `produto-cadastrado.html`: confirmação local do formulário.
 - `imagens/`: fotos usadas nos cards dos produtos.
 
-O layout utiliza `display: flex` para organizar os cards e uma regra `@media` para empilhá-los em telas menores. Todos os produtos possuem imagens próprias na pasta `imagens`.
+O layout utiliza `display: flex` para organizar os cards e uma regra `@media` para empilhá-los em telas menores, mantendo a adaptação já presente na página base, com ajustes de aparência e responsividade. Além disso, o catálogo foi ampliado e recebeu uma tabela comparativa estilizada. Todos os produtos possuem imagens próprias na pasta `imagens`.
