@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang={assigns[:lang] || "pt-BR"}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{assigns[:page_title] || assigns[:greeting] || "Saudação"}</title>
+    <link rel="stylesheet" href={~p"/assets/saudacao.css"} />
+  </head>
+
+  <body>
+    {@inner_content}
+  </body>
+</html>

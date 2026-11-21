@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: inf321-saudacao-phoenix
+    runtime: elixir
+    plan: free
+    rootDir: "Phoenix - Saudacao Multilingue"
+    buildCommand: bash build.sh
+    startCommand: _build/prod/rel/hello/bin/hello start
+    healthCheckPath: /saudacao/pt/lucas
+    envVars:
+      - key: ELIXIR_VERSION
+        value: "1.19.5"
+      - key: ERLANG_VERSION
+        value: "28.3"
+      - key: PHX_SERVER
+        value: "true"
+      - key: SECRET_KEY_BASE
+        sync: false
